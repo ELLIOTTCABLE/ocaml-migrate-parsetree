@@ -1,0 +1,24 @@
+{
+  "name": "@elliottcable/ppx_deriving",
+  "version": "0.0.1",
+  "sources": [
+    {"dir": "src", "subdirs": true},
+    {"dir": "__tests__", "type": "dev"}
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "bs-dev-dependencies": [],
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header",
+    "-bs-cross-module-opt"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}

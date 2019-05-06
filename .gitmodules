@@ -1,0 +1,3 @@
+[submodule "bspack/ocaml-migrate-parsetree"]
+	path = bspack/ocaml-migrate-parsetree
+	url = https://github.com/ocaml-ppx/ocaml-migrate-parsetree.git

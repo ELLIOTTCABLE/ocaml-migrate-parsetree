@@ -1,0 +1,29 @@
+{
+  "name": "@elliottcable/ppx_deriving",
+  "version": "0.0.1",
+  "description": "A BuckleScript package to install ppx_deriving OCaml-preprocessors like show and enum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocaml-ppx/ppx_deriving.git"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ppx",
+    "preprocessor",
+    "OCaml"
+  ],
+  "author": "ELLIOTTCABLE <npm@ell.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocaml-ppx/ppx_deriving/issues"
+  },
+  "homepage": "https://github.com/ocaml-ppx/ppx_deriving#readme",
+  "peerDependencies": {
+    "bs-platform": "^3.0.0 || ^4.0.0"
+  }
+}
